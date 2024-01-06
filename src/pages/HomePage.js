@@ -67,7 +67,7 @@ function HomePage() {
                   <h6 >Price: {product.price}</h6>
                   <h4 className='discounted-price'>Discounted Price: {product.discountedPrice}</h4>
                   <p style={pstyle} dangerouslySetInnerHTML={{ __html: product.description || 'N/A' }}></p>
-                  <Link to={`/products/${product.id}`}><button className='textCenter'>Add To Cart</button></Link>
+                  <Link to={`/products/${product.id}`}><button className='textCenter'>View Product</button></Link>
                 </div>
               </div>
               </Link>
